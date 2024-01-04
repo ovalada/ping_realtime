@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  realtime-ping:
+    image: ping_realtime:latest
+    container_name: realtime-ping
+    restart: always
+    ports:
+      - "8080:80"
